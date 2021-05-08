@@ -1,0 +1,141 @@
+.row {
+  padding: 0;
+}
+#search {
+  padding: 15px 15px 13px 50px;
+  .input {
+    border-right: 2px solid #e9e9e9;
+    font-family: 'Fira Sans', sans-serif;
+    color: #6b6b6b;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    &:before {
+      content: " ";
+      display: inline-block;
+      background-image: url("../img/input.png");
+      height: 19px;
+      width: 15px;
+      margin-right: 7px;
+    }
+  }
+  .date {
+    font-family: 'Fira Sans', sans-serif;
+    color: #383838;
+    font-size: 18px;
+    &:before {
+      content: "\f073";
+      font-family: Font Awesome\ 5 Free;
+      font-weight: 400;
+      display: inline-block;
+      height: 19px;
+      width: 18px;
+      color: #fdb038;
+    }
+  }
+}
+.date2 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #383838;
+  font-size: 18px;
+  border-right: 2px solid #e9e9e9;
+  &:after {
+    content: "\f078";
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    color: #8b9198;
+    margin-left: 30px;
+  }
+}
+.form-control {
+  width: 30px !important;
+  flex: 0 1 auto;
+  padding: 7px 10px;
+  border-radius: 0;
+  border: 1px solid #8b9198;
+  color: #8b9198;
+  margin-right: 6px;
+}
+.btn {
+  padding: 0;
+  background-color: #ffffff;
+  color: #ed9915;
+}
+.btn.btn-default {
+  height: 25px;
+}
+.button {
+  .plus {
+    background-color: #fed18c;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    &:hover {
+      background-color: #ed9915;
+      text-decoration: none;
+      transition: 2s;
+    }
+  }
+  .find {
+    background-color: #ed9915;
+    color: #ffffff;
+    padding: 25px 50px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &:hover {
+      text-decoration: none;
+      background-color: #fed18c;
+      transition: 2s;
+    }
+    @media screen and(max-width: 1024px) {
+      padding: 25px 30px;
+    }
+    @media screen and(max-width: 768px) {
+      padding: 15px 30px;
+    }
+  }
+  @media screen and(max-width: 414px) {
+    margin-top: 20px;
+  }
+}
+.input-group.spinner {
+  height: 30px;
+  .form-control {
+    text-align: center;
+  }
+  .input-group-btn-vertical {
+    position: relative;
+    .top {
+      position: absolute;
+      display: block;
+      top: 0;
+    }
+    .bottom {
+      position: absolute;
+      bottom: -7px;
+      display: block;
+      i {
+        color: #8b9198;
+      }
+    }
+  }
+}
+.input-group {
+  flex-wrap: nowrap;
+}
+.col-lg-2 {
+  padding: 0;
+}
+.place {
+  padding-left: 0;
+}
+.col-lg-2.button {
+  margin-top: 20px;
+}
+.col-lg-1 {
+  padding-right: 0;
+}
+
+
+
